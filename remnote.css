@@ -32,3 +32,8 @@ body {
     background-color: #0000 !important;
     text-decoration: underline;
 }
+
+
+#HierarchyEditor .elementContainer {
+	padding-bottom: 8px;
+}
