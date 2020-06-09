@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@1,300;1,400;1,500&display=swap');
 
 body {
     font-family: Inter;
@@ -33,8 +34,28 @@ body {
     text-decoration: underline;
 }
 
-
 #HierarchyEditor .elementContainer {
 	padding-bottom: 8px !important;
 }
 
+#QuoteNode {
+	font-family: Crimson Pro, serif;
+	font-weight: 300;
+	font-size: 18px;
+	color: gray;
+	border: none;
+	padding: 5px;
+	line-height: 1.5;
+	background-color: #0000;
+	
+}
+
+#QuoteNode::before {
+	content: '“';
+	font-size: 25px;
+}
+
+#QuoteNode::after {
+	content: '”';
+	font-size: 25px;
+}
